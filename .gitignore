@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Build output
+frontend/dist/
+dist/
+build/
+coverage/
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Logs and local files
+*.log
+.DS_Store
+Thumbs.db
+
+# Personal documents and exports
+*CV*.docx
+*CV*.pdf
+*resume*.docx
+*resume*.pdf
